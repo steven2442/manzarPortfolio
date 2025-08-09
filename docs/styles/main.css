@@ -121,7 +121,7 @@ nav a:hover {
 }
 
 .hero-text {
-  flex: 1 1 50%;
+  flex: 1 1 60%;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -138,7 +138,7 @@ nav a:hover {
   color: #fff;
 }
 .hero-image {
-  flex: 1 1 50%;
+  flex: 0 1 40%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -146,10 +146,9 @@ nav a:hover {
 }
 
 .hero-image img {
-  width: 80%;
+  width: 100%;
   max-width: 350px;
   height: auto;
-  border-radius: 0;
   object-fit: cover;
   box-shadow: none;
 }

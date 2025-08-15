@@ -113,10 +113,10 @@ nav a:hover {
   align-items: center;
   justify-content: center;
   width: 100%;
-  min-height: 400px;
+  min-height: 300px;
   background: #232323;
   padding: 0 0vw;           /* Add horizontal padding */
-  gap: 2rem;     
+  gap: 0rem;     
 }
 
 .hero-image {
@@ -143,7 +143,7 @@ nav a:hover {
   align-items: center;
   justify-content: flex-start;
   height: 100%;
-  padding-left: 2rem;
+  padding-left: 1em;
   order: 1
 }
 

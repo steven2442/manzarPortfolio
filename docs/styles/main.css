@@ -120,6 +120,11 @@ nav a:hover {
 }
 
 .hero-image img {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex: 1 1 50%;
   width: 100%;
   max-width: 400px;         /* Adjust as needed */
   height: auto;

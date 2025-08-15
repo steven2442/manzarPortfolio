@@ -115,7 +115,7 @@ nav a:hover {
   width: 100%;
   min-height: 400px;
   background: #232323;
-  padding: 0 5vw;           /* Add horizontal padding */
+  padding: 0 0vw;           /* Add horizontal padding */
   gap: 2rem;     
 }
 
@@ -134,6 +134,7 @@ nav a:hover {
   object-fit: cover;
   box-shadow: none;
   border-radius: 0;
+  order: 0;
 }
 
 .hero-text {
@@ -143,6 +144,7 @@ nav a:hover {
   justify-content: flex-start;
   height: 100%;
   padding-left: 2rem;
+  order: 1
 }
 
 .hero-text h2 {

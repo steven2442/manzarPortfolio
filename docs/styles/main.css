@@ -155,8 +155,9 @@ nav a:hover {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  width: 20%;
   height: 150px;
+  max-width: fit-content;
   object-fit: cover;
   border: 2px solid #ccc;
   border-radius: 2px;

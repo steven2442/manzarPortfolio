@@ -171,12 +171,23 @@ nav a:hover {
   margin-bottom: 15px;
 }
 
-.collection-container ul{
-  color: #7F7E7F;
-  font-size: small;
-}
-.collection-container h2{
-  text-align: center;
+.collection-container ul li a{
   color: #7F7E7F;
   font-size: 1rem;
+  transition: color 0.3s;
+  text-align: center;
+}
+.collection-container h2 {
+  text-align: center;
+  color: #7F7E7F;
+  font-size: 3rem;
+}
+
+.collection-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background: #232323;
+  
 }

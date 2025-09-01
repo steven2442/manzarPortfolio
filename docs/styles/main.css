@@ -171,6 +171,13 @@ nav a:hover {
   margin-bottom: 15px;
 }
 
-.collection-section li{
+.collection-container ul{
   color: 7F7E7F;
+}
+.collection-container h2{
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  color: 7F7E7F;
+  font-size: large;
 }

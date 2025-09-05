@@ -233,13 +233,21 @@ nav a:hover {
   background-color: #f9f9f9;
 } 
 
+.tabcontent h3{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+} 
+
 .tabcontent img {
   display: flex;
   flex-direction:row;
   align-items: center;
   justify-content: center;
-  width: 258px;
-  height: 258px;
+  width: auto;
+  height: auto;
+  max-width: 258px;
+  max-height: fit-content;
   border: 2px solid #ccc;
   border-radius: 2px;
   margin-bottom: 15px;

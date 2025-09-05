@@ -38,21 +38,6 @@
             </div>
         </section>
         <section id="collection">
-                                    <script>
-                            function openCollection(evt, collectionName) {
-                            var i, tabcontent, tablinks;
-                            tabcontent = document.getElementsByClassName("tabcontent");
-                            for (i = 0; i < tabcontent.length; i++) {
-                                tabcontent[i].style.display = "none";
-                            }
-                            tablinks = document.getElementsByClassName("tablinks");
-                            for (i = 0; i < tablinks.length; i++) {
-                                tablinks[i].className = tablinks[i].className.replace(" active", "");
-                            }
-                            document.getElementById(cityName).style.display = "block";
-                            evt.currentTarget.className += " active";
-                            }
-                        </script>
             <div class="collection-container">
             <h2>DIVE INTO MY LATEST CREATIONS!</h2>
                     <div class="tab">
@@ -104,7 +89,21 @@
                             <h3>1001 Magicians</h3>
                         </div>
             </div>
-
+                                    <script>
+                            function openCollection(evt, collectionName) {
+                            var i, tabcontent, tablinks;
+                            tabcontent = document.getElementsByClassName("tabcontent");
+                            for (i = 0; i < tabcontent.length; i++) {
+                                tabcontent[i].style.display = "none";
+                            }
+                            tablinks = document.getElementsByClassName("tablinks");
+                            for (i = 0; i < tablinks.length; i++) {
+                                tablinks[i].className = tablinks[i].className.replace(" active", "");
+                            }
+                            document.getElementById(cityName).style.display = "block";
+                            evt.currentTarget.className += " active";
+                            }
+                        </script>
         </section>
         <section id="contact">
             <h2>Contact</h2>

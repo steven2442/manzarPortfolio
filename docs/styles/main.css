@@ -127,7 +127,7 @@ nav a:hover {
   justify-content: center;
   flex: 1 1 50%;
   width: 100%;
-  max-width: 400px;         /* Adjust as needed */
+  max-width: 400px;
   height: auto;
   object-fit: cover;
   box-shadow: none;
@@ -192,6 +192,22 @@ nav a:hover {
   background: #232323;
   
 }
+
+collection-container img {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex: 1 1 50%;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  object-fit: cover;
+  box-shadow: none;
+  border-radius: 0;
+  order: 0;
+}
+
  /* Style the tab */
 .tab {
   overflow: hidden;

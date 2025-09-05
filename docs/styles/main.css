@@ -193,20 +193,7 @@ nav a:hover {
   
 }
 
-collection-container img {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  flex: 1 1 50%;
-  width: 100%;
-  max-width: 400px;
-  height: auto;
-  object-fit: cover;
-  box-shadow: none;
-  border-radius: 0;
-  order: 0;
-}
+
 
  /* Style the tab */
 .tab {
@@ -238,8 +225,22 @@ collection-container img {
 
 /* Style the tab content */
 .tabcontent {
-  display: none;
-  padding: 6px 12px;
-  border: 1px solid #ccc;
-  border-top: none;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
 } 
+
+.tabcontent img {
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: center;
+  width: 258px;
+  height: 258px;
+  border: 2px solid #ccc;
+  border-radius: 2px;
+  margin-bottom: 15px;
+}

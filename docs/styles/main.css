@@ -229,7 +229,7 @@ nav a:hover {
 
 /* Style the tab content */
 .tabcontent {
-  display: flex;
+  display: hidden;
   flex-wrap: wrap;
   justify-content: center;
   width: 100%;
